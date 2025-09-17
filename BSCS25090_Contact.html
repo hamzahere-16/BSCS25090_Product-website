@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cric World - Contact</title>
+  <link rel="stylesheet" href="BSCS25090_style.css">
+</head>
+<body>
+
+  <!-- Header/Navbar -->
+  <header>
+    <nav>
+      <a href="BSCS25090_Home.html" class="logo">
+        <img src="BSCS25090_image0.pnj.jpeg" alt="Cric World Logo">
+      </a>
+      <ul>
+        <li><a href="BSCS25090_Home.html">HOME</a></li>
+        <li><a href="BSCS25090_Products.html">PRODUCTS</a></li>
+        <li><a href="BSCS25090_Contact.html" class="active">ABOUT US</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+<section class="contact-box">
+  <h2>Contact Us</h2>
+  <p>📱 Cell: +92-316-3352296</p>
+  <p>📧 Email: hamzastar211@gmail.com</p>
+  <p>📍 Location: Lahore, Pakistan</p>
+</section>
+
+<section class="contact-box">
+  <h2>Fill The Form</h2>
+  <form onsubmit="return validateForm()">
+    <label>Name:</label><br>
+    <input type="text" id="name"><br><br>
+    <label>Email:</label><br>
+    <input type="text" id="email"><br><br>
+    <label>Message:</label><br>
+    <textarea id="message"></textarea><br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <div class="box">
+    <h2> Chatbot </h2>
+    <div id="chat" class="chat"></div>
+    <input type="text" id="msg" placeholder="Type now...">
+    <button onclick="send()">Send</button>
+  </div>
+
+  <div class="socials">
+    <a href="https://www.facebook.com/hamza.jarral.5602" target="_blank">
+      <img src="BSCS25090_image8.pnj.jpeg" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com/hamzahere_16/?next=%2F" target="_blank">
+      <img src="BSCS25090_image9.pnj.jpeg" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com/in/hamza-abid-4ba6a3383/" target="_blank">
+      <img src="BSCS25090_image10.pnj.png" alt="LinkedIn">
+    </a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>📱 +92-316-3352296 | 📧 hamzastar211@gmail.com | 📍 Lahore, Pakistan</p>
+</footer>
+
+<script src="BSCS25090_script.js"></script>
+</body>
+</html>
